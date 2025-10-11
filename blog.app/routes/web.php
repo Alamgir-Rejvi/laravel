@@ -1,10 +1,24 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use app\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
+
+Route::get('/profile', function () {
+    $data = ['name' => 'Sohel Amin', 'email' => 'sohel@example.com'];
+    return view('profile', $data);
+})->name('profile');
+
+
+
+
+// Route::get('/', function()
+// {
+// return view('welcome', ['name' => 'Sohel Amin'], ['work' => 'Learn properly']);
+// });
 
 
 Route::get('/about', function (){
@@ -24,3 +38,5 @@ Route ::get('/service' , function (){
 Route ::get('/hello', function (){
     return view('hello');
 })->name('hello');
+
+Route ::get('/', [UserController::class, 'show']);
