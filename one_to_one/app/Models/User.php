@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 use App\Models\UserPhone;
+use App\Models\Profile;
 
 class User extends Authenticatable
 {
@@ -48,7 +49,11 @@ class User extends Authenticatable
         ];
     }
 
-    public function userphone() {
-        return $this->hasone(UserPhone::class);
+    // public function userphone() {
+    //     return $this->hasone(UserPhone::class);
+    // }
+
+    public function profile(){
+        return $this->hasone(Profile::class);
     }
 }
