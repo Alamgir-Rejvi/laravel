@@ -2,13 +2,17 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Merchandiser extends Model
 {
-    public function buyers()
-{
-    return $this->hasMany(Buyer::class);
-}
+
+    use HasFactory;
+    protected $fillable = [
+        'name', 'email', 'phone', 'designation'
+    ];
+   
 
 }
+

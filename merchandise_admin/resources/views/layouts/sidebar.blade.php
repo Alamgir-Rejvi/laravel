@@ -23,7 +23,7 @@
           <ul class="pc-submenu">
             <li class="pc-item"><a class="pc-link" href="{{ route('buyers.index') }}">All Buyer</a></li>
             <li class="pc-item"><a class="pc-link" href="{{ route('buyers.create') }}">Add Buyer</a></li>
-            
+      
           </ul>
         </li>
 
@@ -32,8 +32,8 @@
         <li class="pc-item pc-hasmenu">
           <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-building-store"></i></span><span class="pc-mtext">Merchandiser Management</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
           <ul class="pc-submenu">
-            <li class="pc-item"><a class="pc-link" href="#!">All Merchandiser</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Add New Merchandiser</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('merchandisers.index') }}">All Merchandiser</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('merchandisers.create') }}">Add New Merchandiser</a></li>
             
           </ul>
         </li>
