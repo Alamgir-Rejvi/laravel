@@ -21,12 +21,9 @@
         <li class="pc-item pc-hasmenu">
           <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-users"></i></span><span class="pc-mtext">Buyer Management</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
           <ul class="pc-submenu">
-            <li class="pc-item"><a class="pc-link" href="#!">All Buyer</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Add Buyer</a></li>
-            <!-- <li class="pc-item"><a class="pc-link" href="#!">Departments</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Attenence</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Salary Management</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Leave Request</a></li> -->
+            <li class="pc-item"><a class="pc-link" href="{{ route('buyers.index') }}">All Buyer</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('buyers.create') }}">Add Buyer</a></li>
+            
           </ul>
         </li>
 
@@ -37,10 +34,7 @@
           <ul class="pc-submenu">
             <li class="pc-item"><a class="pc-link" href="#!">All Merchandiser</a></li>
             <li class="pc-item"><a class="pc-link" href="#!">Add New Merchandiser</a></li>
-            <!-- <li class="pc-item"><a class="pc-link" href="#!">Suppliers</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Purchase List</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Stock Report</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Low Stock Report</a></li> -->
+            
           </ul>
         </li>
 
@@ -49,10 +43,10 @@
         <li class="pc-item pc-hasmenu">
           <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-building-factory"></i></span><span class="pc-mtext">Production Management</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
           <ul class="pc-submenu">
-            <!-- <li class="pc-item"><a class="pc-link" href="#!">Production Lines</a></li> -->
+           
             <li class="pc-item"><a class="pc-link" href="#!">Add New Production</a></li>
             <li class="pc-item"><a class="pc-link" href="#!">Work Progress</a></li>
-            <!-- <li class="pc-item"><a class="pc-link" href="#!">Defect Report</a></li> -->
+            
             <li class="pc-item"><a class="pc-link" href="#!">Completed Production</a></li>
           </ul>
         </li>
@@ -63,9 +57,35 @@
           <ul class="pc-submenu">
             <li class="pc-item"><a class="pc-link" href="#!">All Orders</a></li>
             <li class="pc-item"><a class="pc-link" href="#!">Add New Orders</a></li>
-            <!-- <li class="pc-item"><a class="pc-link" href="#!">Buyer List</a></li> -->
+            
             <li class="pc-item"><a class="pc-link" href="#!">Order Tracking</a></li>
             <li class="pc-item"><a class="pc-link" href="#!">Delivery</a></li>
+          </ul>
+        </li>
+
+
+        <!-- Fabric  section -->
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-truck-delivery"></i></span><span class="pc-mtext">Fabric & Accessories</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="#!">A</a></li>
+            <li class="pc-item"><a class="pc-link" href="#!">B</a></li>
+            
+            <li class="pc-item"><a class="pc-link" href="#!">C</a></li>
+            <li class="pc-item"><a class="pc-link" href="#!">D</a></li>
+          </ul>
+        </li>
+
+
+        <!-- Sample  section -->
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-truck-delivery"></i></span><span class="pc-mtext">Sample Tracking</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="#!">A</a></li>
+            <li class="pc-item"><a class="pc-link" href="#!">B</a></li>
+            
+            <li class="pc-item"><a class="pc-link" href="#!">C</a></li>
+            <li class="pc-item"><a class="pc-link" href="#!">D</a></li>
           </ul>
         </li>
 
@@ -76,7 +96,7 @@
           <ul class="pc-submenu">
             <li class="pc-item"><a class="pc-link" href="#!">Income</a></li>
             <li class="pc-item"><a class="pc-link" href="#!">Expenses</a></li>
-            <!-- <li class="pc-item"><a class="pc-link" href="#!">Salary Payments</a></li> -->
+            
             <li class="pc-item"><a class="pc-link" href="#!">Supplier Payments</a></li>
             <li class="pc-item"><a class="pc-link" href="#!">Payment Report</a></li>
         
@@ -92,9 +112,7 @@
             <li class="pc-item"><a class="pc-link" href="#!">Merchandiser Report</a></li>
             <li class="pc-item"><a class="pc-link" href="#!">Production Report</a></li>
             <li class="pc-item"><a class="pc-link" href="#!">Order Report</a></li>
-           
-            <!-- <li class="pc-item"><a class="pc-link" href="#!">Attendence Report</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">Profit & Loss Summary</a></li> -->
+          
           </ul>
         </li>
 
