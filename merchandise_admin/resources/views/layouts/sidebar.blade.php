@@ -5,7 +5,7 @@
       <a href="#!" class="b-brand text-primary">
         <!-- ========   Change your logo from here   ========= -->
         <!-- <img src="/public/assets/images/blogo.webp" class="img-fluid logo-lg" alt="logo"> -->
-        <h4>Merchandiser Admin</h4>
+        <h4>Merchandise Admin</h4>
         <!-- <img src="/public/assets/images/" class="img-fluid me-2" style="height:40px;" alt="thread logo"> -->
       </a>
     </div>
