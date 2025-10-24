@@ -13,6 +13,7 @@ class CategoryController extends Controller
     public function index()
     {
         
+        
         $categories = Category::with('products')->get(); // Step 7: eager loading
         return view('categories.index', compact('categories'));
         
