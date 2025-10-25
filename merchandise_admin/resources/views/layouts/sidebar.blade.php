@@ -19,7 +19,21 @@
           </a>
         </li>
 
-        
+      <!-- User section -->
+      <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-users"></i></span><span class="pc-mtext">User Management</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="{{ route('buyers.index') }}">Admin</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('buyers.create') }}">Merchandisers</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('buyers.index') }}">Buyers</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('buyers.create') }}">Production Managers</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('buyers.create') }}">suppliers</a></li>
+      
+          </ul>
+        </li>    
+
+
+
           <!-- Buyer section -->
         <li class="pc-item pc-hasmenu">
           <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-users"></i></span><span class="pc-mtext">Buyer Management</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
@@ -40,6 +54,20 @@
             
           </ul>
         </li>
+
+      <!-- Manufacturer Management -->
+
+      <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-building-factory"></i></span><span class="pc-mtext">Manufacturer Management</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+           
+            <li class="pc-item"><a class="pc-link" href="#!">A</a></li>
+            <li class="pc-item"><a class="pc-link" href="#!">B</a></li>
+            
+            <li class="pc-item"><a class="pc-link" href="#!">C</a></li>
+          </ul>
+        </li>
+
 
         <!-- production Management -->
 
@@ -106,6 +134,22 @@
           </ul>
         </li>
 
+      <!--Production tracking  -->
+
+      <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-building-factory"></i></span><span class="pc-mtext">Production tracking </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+          <ul class="pc-submenu">
+           
+            <li class="pc-item"><a class="pc-link" href="#!">A</a></li>
+            <li class="pc-item"><a class="pc-link" href="#!">B</a></li>
+            
+            <li class="pc-item"><a class="pc-link" href="#!">C</a></li>
+          </ul>
+        </li>
+
+
+
+
         <!-- reports -->
 
         <li class="pc-item pc-hasmenu">
@@ -133,7 +177,7 @@
          
        
 
-       
+<!--        
         <li class="pc-item">
           <a href="../pages/login.html" class="pc-link">
             <span class="pc-micon"><i class="ti ti-lock"></i></span>
@@ -145,7 +189,7 @@
             <span class="pc-micon"><i class="ti ti-user-plus"></i></span>
             <span class="pc-mtext">Register</span>
           </a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>

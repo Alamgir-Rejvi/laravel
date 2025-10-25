@@ -13,15 +13,11 @@ return new class extends Migration
 {
     Schema::create('fabrics', function (Blueprint $table) {
         $table->id();
-        // $table->unsignedBigInteger('order_id'); 
-        // $table->foreign('order_id')
-        // ->references('id')
-        // ->on('orders')
-        // ->onDelete('cascade');
+        $table->foreignId('order_id')->constrained('orders')->onDelete('cascade');
         $table->string('fabric_type');
         $table->string('color')->nullable();
-        $table->decimal('required_qty', 10, 2)->default(0);
-        $table->decimal('received_qty', 10, 2)->default(0);
+        $table->string('supplier');
+        $table->integer('quantity');
         $table->string('status')->default('Pending'); // Pending / In Stock / Used
         $table->timestamps();
     });
