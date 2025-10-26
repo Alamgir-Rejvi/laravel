@@ -61,11 +61,11 @@ class StudentController extends Controller
      */
     public function edit(Student $student)
     {
-        $student = Student::findOrFail($id);
-        $subjects = Subject::all();
-        $studentSubjects = $student->subjects->pluck('id')->toArray();
+        // $student = Student::findOrFail($id);
+        // $subjects = Subject::all();
+        // $studentSubjects = $student->subjects->pluck('id')->toArray();
 
-        return view('students.edit', compact('student', 'subjects', 'studentSubjects'));
+        // return view('students.edit', compact('student', 'subjects', 'studentSubjects'));
     }
 
     /**
@@ -73,17 +73,17 @@ class StudentController extends Controller
      */
     public function update(Request $request, Student $student)
     {
-        $student = Student::findOrFail($id);
+        // $student = Student::findOrFail($id);
 
-        $student->update([
-            'first_name' => $request->first_name,
-            'last_name' => $request->last_name,
-        ]);
+        // $student->update([
+        //     'first_name' => $request->first_name,
+        //     'last_name' => $request->last_name,
+        // ]);
 
-        // Many-to-Many update (sync)
-        $student->subjects()->sync($request->subject_ids);
+        // // Many-to-Many update (sync)
+        // $student->subjects()->sync($request->subject_ids);
 
-        return redirect()->route('students.index')->with('success', 'Student updated successfully!');
+        // return redirect()->route('students.index')->with('success', 'Student updated successfully!');
     }
 
     /**
