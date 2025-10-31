@@ -1,6 +1,6 @@
 <!-- [ Sidebar Menu ] start -->
 <nav class="pc-sidebar ">
-  <div class="navbar-wrapper bg-info">
+  <div class="navbar-wrapper">
     <div class="m-header">
       <a href="#!" class="b-brand text-primary">
         <!-- ========   Change your logo from here   ========= -->
