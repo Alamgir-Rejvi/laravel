@@ -134,20 +134,22 @@
           </ul>
         </li>
 
+        
+
       <!--Production tracking  -->
 
       <li class="pc-item pc-hasmenu">
-          <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-building-factory"></i></span><span class="pc-mtext">Production tracking </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+          <a href="#!" class="pc-link"><span class="pc-micon"><i class="ti ti-currency-dollar"></i></span><span class="pc-mtext">Production tracking</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
           <ul class="pc-submenu">
-           
-            <li class="pc-item"><a class="pc-link" href="#!">A</a></li>
-            <li class="pc-item"><a class="pc-link" href="#!">B</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('productions.index') }}">All Productions</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('productions.create') }}">New Production Entry</a></li>
             
-            <li class="pc-item"><a class="pc-link" href="#!">C</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('productions.stages') }}">Production Stages</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('productions.schedule') }}">Production Schedule</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('productions.reports') }}">Production Reports</a></li>
+        
           </ul>
         </li>
-
-
 
 
         <!-- reports -->
