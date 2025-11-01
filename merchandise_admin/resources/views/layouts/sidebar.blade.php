@@ -40,7 +40,6 @@
           <ul class="pc-submenu">
             <li class="pc-item"><a class="pc-link" href="{{ route('buyers.index') }}">All Buyer</a></li>
             <li class="pc-item"><a class="pc-link" href="{{ route('buyers.create') }}">Add Buyer</a></li>
-      
           </ul>
         </li>
 
@@ -144,9 +143,9 @@
             <li class="pc-item"><a class="pc-link" href="{{ route('productions.index') }}">All Productions</a></li>
             <li class="pc-item"><a class="pc-link" href="{{ route('productions.create') }}">New Production Entry</a></li>
             
-            <li class="pc-item"><a class="pc-link" href="{{ route('productions.stages') }}">Production Stages</a></li>
-            <li class="pc-item"><a class="pc-link" href="{{ route('productions.schedule') }}">Production Schedule</a></li>
-            <li class="pc-item"><a class="pc-link" href="{{ route('productions.reports') }}">Production Reports</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('admin.production.stages') }}">Production Stages</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('admin.production.schedule') }}">Production Schedule</a></li>
+            <li class="pc-item"><a class="pc-link" href="{{ route('admin.production.reports') }}">Production Reports</a></li>
         
           </ul>
         </li>

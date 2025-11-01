@@ -19,7 +19,7 @@ Route::resource('buyers', BuyerController::class);
 Route::resource('merchandisers', MerchandiserController::class);
 Route::resource('productions', ProductionController::class);
 
-
+Route::get('/productions', [ProductionController::class, 'index'])->name('productions.index');
 
 Route::get('/production/stages', [ProductionController::class, 'stages'])->name('admin.production.stages');
 
